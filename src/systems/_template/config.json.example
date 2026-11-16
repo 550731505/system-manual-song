@@ -1,0 +1,10 @@
+{
+  "id": "template",
+  "name": "示例系统名称",
+  "description": "一句话说明这个系统的用户范围（例如：经纪机构 / 大厅窗口 / 中介管理科）",
+  "updated": "2026-01-01",
+  "order": 99,
+  "manuals": [
+    { "file": "示例系统操作手册-机构版.docx", "role": "org" }
+  ]
+}

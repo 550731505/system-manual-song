@@ -1,0 +1,28 @@
+{
+  "name": "system-manual-song",
+  "version": "1.0.0",
+  "private": true,
+  "description": "多系统用户手册（答疑知识库）站点：一个工程承载所有业务系统的操作手册页面",
+  "scripts": {
+    "serve": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service serve",
+    "build": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build",
+    "build:test": "set NODE_OPTIONS=--openssl-legacy-provider && vue-cli-service build --mode test"
+  },
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-router": "^3.0.1"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.3.0",
+    "@vue/cli-service": "^3.3.0",
+    "jsdom": "^31.0.1",
+    "less": "^3.9.0",
+    "less-loader": "^4.1.0",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 10"
+  ]
+}
